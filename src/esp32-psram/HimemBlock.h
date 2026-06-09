@@ -6,7 +6,7 @@
 #include <vector>
 // ESP32 HIMEM headers - using conditional inclusion for compatibility
 #if __has_include("esp_himem.h")
-#include "esp_himem.h"
+#include "esp32/himem.h"
 #elif __has_include("esp32/himem.h")
 #include "esp32/himem.h"
 #else
